@@ -5,11 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css"> 
-	<script src="fitty.min.js"></script>
 	<style>
 		* {
 			box-sizing: border-box;
 			font-family: 'Metropolis', sans-serif;
+		}
+		html, body {
+			max-height: 100%;
 		}
 		html {
 			margin: 0;
@@ -17,20 +19,19 @@
 			background-color: #3f6632;
 			text-align: center;
 		}
-		h2 {
+		h1 {
+			position: absolute;
+			right: 100%;
 		}
 		img {
-			width: 100%;
+			max-width: 100%;
+			max-height: 60%;
 		}
 	</style>
 </head>
 <body>
-	<div class="card">		
-		<img src="alive.gif" alt="Dolly Parton is alive">
-		<h2>Thank <a  href="http://www.isbettywhitealive.com">St. Betty White</a>!</h2>
-	</div>
-	<script>
-		fitty('h1');
-	</script>
+	<img src="alive.gif" alt="Dolly Parton is alive">
+	<h1>YES!!</h1>
+	<h2>Thank <a  href="http://www.isbettywhitealive.com">St. Betty White</a>!</h2>
 </body>
 </html>
